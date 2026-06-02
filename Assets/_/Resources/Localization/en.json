@@ -1,0 +1,48 @@
+{
+    "items": [
+        {"key": "load", "value": "Load"},
+        {"key": "save", "value": "Save"},
+        {"key": "delete", "value": "Delete"},
+        {"key": "Settings", "value": "Settings"},
+        {"key": "Bonus", "value": "Bonus"},
+        {"key": "Prestige","value":  "Prestiges"},
+        {"key": "Buy_Multi","value":  "multiple purchase"},
+        {"key": "Resume","value": "to Resume"},
+        {"key": "Exit","value": "Exit"},
+        {"key": "Credit","value": "Credit"},
+        {"key": "Back","value": "Back"},
+
+        {"key": "Water","value": "Water"},
+        {"key": "Prod_Basic","value": "basic production"},
+        {"key": "Fire","value": "Fire"},
+        {"key": "Usinage","value": "Machining"},
+        {"key": "sechage","value": "Drying" },
+        {"key": "Buy","value": "Buy"},
+
+        {"key": "Fishing area","value": "Fishing area"},
+        {"key": "Chicken","value": "Chicken coop"},
+
+        {"key": "Bonus X2","value":  "Bonus X2"},
+      
+        {"key": "Europeen Cat","value": "Europeen Cat"},
+        {"key": "Maine Coon","value": "Maine Coon"},
+        {"key": "Sphynx","value": "Sphynx"},
+
+        {"key": "SETTINGS_NUMBER_DISPLAY_TITLE", "value": "Number Display"},
+        {"key": "NUMBER_DISPLAY_AUTO", "value": "Auto (k / M → e+)"},
+        {"key": "NUMBER_DISPLAY_ABBREVIATED", "value": "Abbreviated (k / M / B)"},
+        {"key": "NUMBER_DISPLAY_SCIENTIFIC", "value": "Scientific (e+)"},
+        {"key": "Sound","value": "Sound"},
+
+        {"key": "SETTINGS_LANGUAGE_DISPLAY_TITLE", "value": "Language Display"},
+        {"key": "en", "value": "English"},
+        {"key": "fr","value": "French"},
+
+        {"key": "offline.popup.title", "value": "While you were away"},
+        {"key": "offline.popup.elapsed", "value": "Elapsed time: {0}"},
+        {"key": "offline.popup.croquettes", "value": "+{0} kibble"},
+        {"key": "offline.popup.poissons", "value": "+{0} fish"},
+
+        {"key": "ui.intro.1","value": "You've finally awakened, human. You're going to help us recreate our currencies: Kibble, Fish, and Chicken. Get ready to press the button to generate all of this. You're the first to become a slave to our race again—may you be honored."}
+    ]
+}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9828560b7a1698409119d711951d165, type: 3}
+  m_Name: Brightness
+  m_EditorClassIdentifier: TheFundation.Runtime::TheFundation.Runtime.SettingDefinition
+  m_key: settings_brightness
+  m_category: 1
+  m_label: Brightness
+  m_description: Adjusts the overall brightness of the dispaly.
+  m_labelKey: settings.graphics.brightness.label
+  m_descriptionKey: settings.graphics.brightness.desc"
+  m_type: 0
+  m_defaultFloat: 1
+  m_minFloat: 0.5
+  m_maxFloat: 2
+  m_defaultBool: 1
+  m_options: []
+  m_showOnDesktop: 1
+  m_showOnMobile: 1
+  m_showOnConsole: 1
