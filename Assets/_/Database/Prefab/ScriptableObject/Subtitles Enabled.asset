@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9828560b7a1698409119d711951d165, type: 3}
+  m_Name: Subtitles Enabled
+  m_EditorClassIdentifier: TheFundation.Runtime::TheFundation.Runtime.SettingDefinition
+  m_key: settings_subtitles
+  m_category: 3
+  m_label: Subtitles
+  m_description: Enable or disable subtitles during dialogues.
+  m_labelKey: settings.accessibility.subtitles.label
+  m_descriptionKey: settings.accessibility.subtitles.desc
+  m_type: 0
+  m_defaultFloat: 1
+  m_minFloat: 0
+  m_maxFloat: 1
+  m_defaultBool: 1
+  m_options: []
+  m_showOnDesktop: 1
+  m_showOnMobile: 1
+  m_showOnConsole: 1

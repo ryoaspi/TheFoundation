@@ -1,0 +1,48 @@
+{
+    "items": [
+        {"key": "load", "value": "Charger"},
+        {"key": "save", "value": "Sauvegarder"},
+        {"key": "delete", "value": "Supprimer"},
+        {"key": "Settings", "value": "Option"},
+        {"key": "Bonus", "value":  "Bonus"},
+        {"key": "Prestige","value":  "Prestiges"},
+        {"key": "Buy_Multi","value": "Achat multiple"},
+        {"key": "Resume","value": "Retour"},
+        {"key": "Exit","value": "Quitter"},
+        {"key": "Credit","value": "Crédit"},
+        {"key": "Back","value": "Retour"},
+
+        {"key": "Water","value": "Eau"},
+        {"key": "Prod_Basic","value": "Production Basique"},
+        {"key": "Fire","value": "Feu"},
+        {"key": "Usinage","value": "Usinage"},
+        {"key": "sechage","value": "Séchage" },
+        {"key": "Buy","value": "Acheter"},
+
+        {"key": "Fishing area","value": "Zone de pêche"},
+        {"key": "Chicken","value": "Poulailler"},
+
+        {"key": "Bonus X2","value": "Bonus X2"},
+      
+        {"key": "Europeen Cat","value": "Chat Européen"},
+        {"key": "Maine Coon","value": "Maine Coon"},
+        {"key": "Sphynx","value": "Sphynx"},
+
+        {"key": "SETTINGS_NUMBER_DISPLAY_TITLE", "value": "Affichage des nombres" },
+        {"key": "NUMBER_DISPLAY_AUTO", "value": "Automatique (k / M → e+)" },
+        {"key": "NUMBER_DISPLAY_ABBREVIATED", "value": "Abrégé (k / M / B)" },
+        {"key": "NUMBER_DISPLAY_SCIENTIFIC", "value": "Scientifique (e+)" },
+        {"key": "Sound","value": "Volume"},
+
+        {"key": "SETTINGS_LANGUAGE_DISPLAY_TITLE", "value": "Affichage des langues"},
+        {"key": "en", "value": "Anglais"},
+        {"key": "fr", "value": "Français"},
+
+        {"key": "offline.popup.title", "value": "Pendant votre absence"},
+        {"key": "offline.popup.elapsed", "value": "Temps écoulé : {0}"},
+        {"key": "offline.popup.croquettes", "value": "+{0} croquettes"},
+        {"key": "offline.popup.poissons", "value": "+{0} poissons"},
+      
+        {"key": "ui.intro.1","value": "Tu te révéille enfin humain. Tu vas nous aider à recréer nos monnaies : Les Croquettes, Le Poisson et Le Poulet. Prépare toi à appuyer pour généré tout cela. Tu es le premier à redevenir l'esclave de notre race soit honoré."}
+    ]
+}
