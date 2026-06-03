@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604db35ddd3114495a96836bfe1f2a16, type: 3}
+  m_Name: FeatureDefinition 1
+  m_EditorClassIdentifier: TheFundation.Editor::TheFoundation.Editor.FeatureDefinition
+  m_ID: sceneCreationTool
+  m_title: Scene Creation Tool
+  m_category: 6
+  m_description: "Donc l'id\xE9e de ce tool c'est d'uniformiser l\xE0 cr\xE9ation
+    de scene, et de limiter les mauvaises appellations ou emplacement.\n\nCa ajoute
+    un peu de contrainte et de controle, mais au moins voil\xE0 \xE7a limite les
+    erreurs.\n\nPour l'activer il faut:\n- Click droit sur la zone o\xF9 se trouve
+    le play/pause mode\n- Cocher Scene Creation\n\nEnsuite un boutton new Scene devrait
+    apparaitre. "
+  m_version: 1.0.0
+  m_author: Lex

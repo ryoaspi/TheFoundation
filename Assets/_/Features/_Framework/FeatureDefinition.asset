@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604db35ddd3114495a96836bfe1f2a16, type: 3}
+  m_Name: FeatureDefinition
+  m_EditorClassIdentifier: TheFundation.Editor::TheFundation.Editor.FeatureDefinition
+  m_ID: newFeatureAnnouncementTest
+  m_title: Feature Definition Announcement
+  m_category: 6
+  m_description: "C'est une suggestion mais je pense qu'il est int\xE9ressant d'avoir
+    un tool permettant d'informer directement depuis le projet certaines nouveaut\xE9es.\n\nDonc
+    voil\xE0.\n\nBon apr\xE8s 45 requetes \xE0 GPT et 1 \xE0 Claude, c'est la version
+    de Claude (Celle-ci) qui me plait le plus.\n\nPetite mention sp\xE9ciale pour
+    le \"Repairing broken Code from GPT\" mdr.\n\nBref. \n\nL'id\xE9e ce serait de
+    cr\xE9e un \"Feature Definition\"\n(click droit > Create > TheFoundation > FeatureDefinition)\n\nDans
+    le dossier de la nouvelle feature.\nAinsi quand les autres collaborateurs pullent
+    le projet, ils sont directement avertit de ce qui a \xE9t\xE9 impl\xE9ment\xE9.\n\n(C'est
+    parfois erm souvent laborieux de check toutes les doc externes pour voir une
+    info)\n\nEncore une fois c'est am\xE9liorable, peut-\xEAtre pas n\xE9cessaire,
+    mais \xE7a peut-\xEAtre chouette.\n\nLex, bisous je vous aime <3"
+  m_version: 1.0.0
+  m_author: Lex
