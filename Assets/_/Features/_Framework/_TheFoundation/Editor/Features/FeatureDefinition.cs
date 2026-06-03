@@ -152,7 +152,7 @@ namespace TheFundation.Editor
 
             // ── Header ──
             EditorGUILayout.Space(8);
-            var titleStyle = new GUIStyle(EditorStyles.boldLabel) { fontSize = 15 };
+            var titleStyle = new GUIStyle(EditorStyles.boldLabel) { fontSize = 15 , normal = {textColor = new Color(0.3f, 0.85f, 0.5f)}};
             EditorGUILayout.LabelField(f.m_title, titleStyle);
 
             var metaStyle = new GUIStyle(EditorStyles.miniLabel) { normal = { textColor = new Color(0.6f, 0.8f, 1f) } };
