@@ -18,11 +18,13 @@ MonoBehaviour:
   m_description: "Ce tool permet d'avoir rapidement un coup d'oeil rapide sur quel
     dossier d'assembly a beaucoup de r\xE9f\xE9rence d'autres assemblies.\n\nC'est
     surtout Utilitaire, mais parfois \xE7a m'aide personnellement \xE0 mieux comprendre
-    qui doit aller o\xF9, qui doit connaitre quoi etc.\n\nDonc \xE7a marque une pastille
-    color\xE9e en fonction de la quantit\xE9 de d\xE9pendances connues.\n\n(Ex :
-    En th\xE9orie une assembly Shared, se doit d'\xEAtre consomm\xE9e par tout ceux
-    qui en ont besoin, donc \"Shared\" devrait id\xE9alement \xEAtre en vert)\n\nPour
-    avoir un apercu plus global, le boutton en haut \"Foundation\" propose une fenetre
-    ancrable \"Assembly Dependency Order\".\n\nBisous tout plein <3"
+    qui doit aller o\xF9, qui doit connaitre quoi etc.\n-------------\n\nDonc \xE7a
+    marque une pastille color\xE9e en fonction de la quantit\xE9 de d\xE9pendances
+    connues.\n\n(Ex : En th\xE9orie une assembly Shared, se doit d'\xEAtre consomm\xE9e
+    par tout ceux qui en ont besoin, donc \"Shared\" devrait id\xE9alement \xEAtre
+    en vert)\n-------------\n\nPour avoir un apercu plus global, le boutton en haut
+    \"Foundation\" propose une fenetre ancrable \"Assembly Dependency Order\".\n\nBisous
+    tout plein <3"
   m_version: 1.0.0
   m_author: Lex
+  m_updatedAt: 2026-06-03

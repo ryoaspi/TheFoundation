@@ -35,43 +35,7 @@ namespace TheFundation.Editor
         public string m_description;
         public string m_version;
         public string m_author;
-        
-        public DateTime CreationDateTime
-        {
-            get
-            {
-                if (DateTime.TryParse(_creationDate, out DateTime result))
-                    return result;
-                return DateTime.MinValue;
-            }
-        }
-
-        [ContextMenu("Set date to now")]
-        private void ResetDateToNow()
-        {
-            _creationDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-        
-            EditorUtility.SetDirty(this); 
-            AssetDatabase.SaveAssets();
-        }
-        
-        private void Awake()
-        {
-            if (string.IsNullOrEmpty(_creationDate))
-            {
-                _creationDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            }
-        }
-
-        private void OnValidate()
-        {
-            if (string.IsNullOrEmpty(_creationDate))
-            {
-                _creationDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-            }
-        }
-        
-        private string _creationDate;
+        public string m_updatedAt;
         
     }
 
@@ -85,7 +49,7 @@ namespace TheFundation.Editor
             // Sort by asset creation date (oldest first) via file system
             return AssetDatabase.FindAssets("t:FeatureDefinition")
                 .Select(AssetDatabase.GUIDToAssetPath)
-                .OrderBy(path => File.GetCreationTime(path))
+                .OrderBy(path => File.GetCreationTime(path + ".meta")) // ← .meta
                 .Select(AssetDatabase.LoadAssetAtPath<FeatureDefinition>)
                 .Where(f => f != null)
                 .ToList();
@@ -212,7 +176,7 @@ namespace TheFundation.Editor
 
             var dateStyle = new GUIStyle(EditorStyles.boldLabel) { normal = {textColor = new Color(0.8f, 0.6f, 0.3f) }};
             
-            EditorGUILayout.LabelField($"Created on : {f.CreationDateTime}", dateStyle);
+            EditorGUILayout.LabelField($"Updated at: {f.m_updatedAt}", dateStyle);
             EditorGUILayout.Space(4);
             
             
@@ -314,6 +278,15 @@ namespace TheFundation.Editor
 
             GUI.backgroundColor = prevColor;
 
+            EditorGUILayout.Space(4);
+            if (GUILayout.Button("Set updated at → now"))
+            {
+                var definition = (FeatureDefinition)target;
+                definition.m_updatedAt = DateTime.Now.ToString("yyyy-MM-dd");
+                EditorUtility.SetDirty(definition);
+                AssetDatabase.SaveAssets();
+            }
+            
             EditorGUILayout.Space(4);
             GUI.backgroundColor = new Color(0.3f, 0.5f, 1f);
             if (GUILayout.Button("Preview popup"))

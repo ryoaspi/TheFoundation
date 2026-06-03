@@ -19,7 +19,11 @@ MonoBehaviour:
     de scene, et de limiter les mauvaises appellations ou emplacement.\n\nCa ajoute
     un peu de contrainte et de controle, mais au moins voil\xE0 \xE7a limite les
     erreurs.\n\nPour l'activer il faut:\n- Click droit sur la zone o\xF9 se trouve
-    le play/pause mode\n- Cocher Scene Creation\n\nEnsuite un boutton new Scene devrait
-    apparaitre. "
+    le play/pause mode\n- Cocher Scene Creation\n\n\nEnsuite un bouton new Scene
+    devrait apparaitre. \n-------------\n\nDeux options sont alors disponible:\n-
+    ProductScene\n- ContributorScene\n\nLes sc\xE8nes de productions sont vou\xE9
+    build final\n\nLes sc\xE8nes de \"contribueurs\" ?  A toi, moi , plus eux, plus
+    tous ceux qui le veulent.\n-------------\n\nA la prochaine ^^\n"
   m_version: 1.0.0
   m_author: Lex
+  m_updatedAt: 2026-06-03
