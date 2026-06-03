@@ -20,11 +20,11 @@ MonoBehaviour:
     voil\xE0.\n\nBon apr\xE8s 45 requetes \xE0 GPT et 1 \xE0 Claude, c'est la version
     de Claude (Celle-ci) qui me plait le plus.\n\nPetite mention sp\xE9ciale pour
     le \"Repairing broken Code from GPT\" mdr.\n\nBref. \n\nL'id\xE9e ce serait de
-    cr\xE9e un \"Feature Definition\"\n(click droit > Create > TheFoundation > FeatureDefinition)\n\nDans
+    cr\xE9e une \"Feature Definition\"\n(click droit > Create > TheFoundation > FeatureDefinition)\n\nDans
     le dossier de la nouvelle feature.\nAinsi quand les autres collaborateurs pullent
     le projet, ils sont directement avertit de ce qui a \xE9t\xE9 impl\xE9ment\xE9.\n\n(C'est
     parfois erm souvent laborieux de check toutes les doc externes pour voir une
     info)\n\nEncore une fois c'est am\xE9liorable, peut-\xEAtre pas n\xE9cessaire,
     mais \xE7a peut-\xEAtre chouette.\n\nLex, bisous je vous aime <3"
-  m_version: 1.0.1
+  m_version: 1.0.2
   m_author: Lex
