@@ -27,3 +27,6 @@ MonoBehaviour:
   m_version: 1.0.0
   m_author: Lex
   m_updatedAt: 2026-06-03
+  m_gallery:
+  - {fileID: 2800000, guid: af954b2f66cc44dc896cc2573bdb8c56, type: 3}
+  - {fileID: 2800000, guid: edfd6a6b3fee6461aa3219a48238f916, type: 3}
