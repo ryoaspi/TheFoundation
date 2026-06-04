@@ -2,7 +2,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace TheFundation.Editor
+namespace TheFoundation.Editor
 {
     public class FeatureModuleCreator : EditorWindow
     {

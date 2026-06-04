@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// VersionTextUI

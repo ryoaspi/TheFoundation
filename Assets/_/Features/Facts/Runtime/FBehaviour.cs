@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Object = UnityEngine.Object;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     public class FBehaviour : MonoBehaviour
     {

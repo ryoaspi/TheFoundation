@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     [CreateAssetMenu(
         fileName = "GoalDefinition",

@@ -3,7 +3,7 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     public class LanguageDropdownBridge : MonoBehaviour
     {

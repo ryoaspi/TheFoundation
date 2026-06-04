@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// KanaInputField — IME romaji → kana pour TMP_InputField

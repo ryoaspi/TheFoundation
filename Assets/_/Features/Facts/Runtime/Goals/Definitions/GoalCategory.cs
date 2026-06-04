@@ -1,4 +1,4 @@
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     public enum GoalCategory
     {

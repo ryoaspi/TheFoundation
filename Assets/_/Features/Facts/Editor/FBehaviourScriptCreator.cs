@@ -3,7 +3,7 @@ using log4net.Filter;
 using UnityEditor;
 using UnityEngine;
 
-namespace TheFundation.Editor
+namespace TheFoundation.Editor
 {
     public class FBehaviourScriptCreator : EditorWindow
     {

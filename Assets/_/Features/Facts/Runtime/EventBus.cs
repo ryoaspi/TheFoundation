@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// EventBus — bus d'événements centralisé

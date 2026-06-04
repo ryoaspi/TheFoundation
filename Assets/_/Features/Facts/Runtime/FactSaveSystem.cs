@@ -5,7 +5,7 @@ using System.IO.Compression;
 using UnityEngine;
 using CompressionLevel = System.IO.Compression.CompressionLevel;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     [Serializable]
     public class SerializableFact

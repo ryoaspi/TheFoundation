@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// KanaConverter — moteur de conversion romaji → kana

@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// KanaText — affichage lecture seule de texte romaji converti en kana

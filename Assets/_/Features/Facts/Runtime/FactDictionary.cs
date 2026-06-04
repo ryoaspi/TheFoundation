@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using TheFundation.Runtime.Data;
+using TheFoundation.Runtime.Data;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     public class FactDictionary
     {

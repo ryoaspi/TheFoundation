@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using TheFundation.Runtime;
+using TheFoundation.Runtime;
 
 public class LocalizationEditorWindow : EditorWindow
 {

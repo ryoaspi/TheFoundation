@@ -1,8 +1,8 @@
-using TheFundation.Runtime.Events;
+using TheFoundation.Runtime.Events;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// SceneService — gestion des transitions de scènes

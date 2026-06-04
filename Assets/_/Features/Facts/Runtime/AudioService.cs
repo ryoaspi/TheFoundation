@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using TheFundation.Runtime.Events;
+using TheFoundation.Runtime.Events;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// AudioService — banque de sons centralisée

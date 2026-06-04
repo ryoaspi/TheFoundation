@@ -1,7 +1,7 @@
 using System.Text;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// GameHealthCheck

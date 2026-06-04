@@ -1,6 +1,6 @@
 using UnityEngine.UI;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// Binder logique pour les sliders de paramètres.

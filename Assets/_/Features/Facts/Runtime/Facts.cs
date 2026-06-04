@@ -1,6 +1,6 @@
 using System;
 
-namespace TheFundation.Runtime.Data
+namespace TheFoundation.Runtime.Data
 {
     public interface IFact
     {

@@ -1,7 +1,7 @@
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// Binder logique pour les dropdowns.

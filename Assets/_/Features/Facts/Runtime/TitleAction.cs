@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     public class TitleAction : MonoBehaviour
     {

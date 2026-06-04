@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     [RequireComponent(typeof(TMP_Text))]
     // On hérite de FBehaviour pour profiter de l'abonnement auto à OnLanguageChanged

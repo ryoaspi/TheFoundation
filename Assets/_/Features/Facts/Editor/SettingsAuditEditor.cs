@@ -3,9 +3,9 @@
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
-using TheFundation.Runtime;
+using TheFoundation.Runtime;
 
-namespace TheFundation.Editor
+namespace TheFoundation.Editor
 {
     public class SettingsAuditEditor : EditorWindow
     {

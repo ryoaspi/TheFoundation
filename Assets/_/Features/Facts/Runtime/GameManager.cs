@@ -1,8 +1,8 @@
 using System;
-using TheFundation.Runtime.Events;
+using TheFoundation.Runtime.Events;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     /// <summary>
     /// GameManager — version étendue

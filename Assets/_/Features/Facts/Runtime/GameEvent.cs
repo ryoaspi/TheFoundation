@@ -1,4 +1,4 @@
-namespace TheFundation.Runtime.Events
+namespace TheFoundation.Runtime.Events
 {
     // ═══════════════════════════════════════════════════════════
     //  GameEvents.cs — Catalogue des events du framework

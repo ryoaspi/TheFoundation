@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     public class SaveSlotsPanel : MonoBehaviour
     {

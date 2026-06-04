@@ -1,6 +1,6 @@
 using System;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     public static class GoalEvents
     {

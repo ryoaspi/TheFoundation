@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     [CreateAssetMenu(fileName="InputIconDatabase", menuName="Input/Icon Database")]
     public class InputIconDatabase : ScriptableObject

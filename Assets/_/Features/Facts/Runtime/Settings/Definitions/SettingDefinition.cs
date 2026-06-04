@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace TheFundation.Runtime
+namespace TheFoundation.Runtime
 {
     [CreateAssetMenu(
         fileName = "SettingDefinition",
