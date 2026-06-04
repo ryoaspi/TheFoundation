@@ -5,6 +5,12 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
+
+// TODO
+// Change the name of the "FeatureDefinition", its confusing, rather go for ChangeLogEntry or ProjectNote
+// This will undoubtedly corrupt the data of the previous created "Notes".
+
+
 // ─────────────────────────────────────────────────────────────
 // FEATURE DEFINITION — ScriptableObject
 // ─────────────────────────────────────────────────────────────
