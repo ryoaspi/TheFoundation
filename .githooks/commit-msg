@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+MSG=$(cat "$1")
+if [ ${#MSG} -lt 10 ]; then
+    echo "❌ Message trop court (minimum 10 caractères)"
+    exit 1
+fi
+
+if ! echo "$MSG" | grep -qE "^(Added|Updated|Removed|Fixed|Refactor|Chore) : .+"; then
+    echo "❌ Le message doit respecter le format : Préfixe : description"
+    echo "   Exemple : Added : shockwave ability"
+    echo "   Préfixes valides : Added | Updated | Removed | Fixed | Refactor | Chore"
+    exit 1
+fi
