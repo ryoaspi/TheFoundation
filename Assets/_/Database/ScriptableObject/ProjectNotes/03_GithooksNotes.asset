@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc7b999ca12640b0bcc302fd51b9cc7, type: 3}
+  m_Name: 03_GithooksNotes
+  m_EditorClassIdentifier: TheFoundation.Editor::TheFoundation.Editor.ProjectNoteDefinition
+  m_ID: githooks
+  m_title: Git Hooks
+  m_category: 4
+  m_description: "Ce tool devrais normalement automatiquement configurer le GIT afin
+    de lui d\xE9finir un nouveau chemin dans lequel chercher des  Githooks.\n----------------\n\nQu'est
+    ce qu'un githook ?\n\nGrossi\xE8rement ca permet d'intercepter les action autour
+    d'un push/commit,etc..\n----------------\n\nPourquoi un githook ? \n\nC'est dans
+    l'optique de ne pas perdre "
+  m_version: 1.0.1
+  m_author: Lex
+  m_updatedAt: 2026-06-05
+  m_gallery: []
