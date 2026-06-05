@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc7b999ca12640b0bcc302fd51b9cc7, type: 3}
+  m_Name: 04_ProjectArchitectureNotes
+  m_EditorClassIdentifier: TheFoundation.Editor::TheFoundation.Editor.ProjectNoteDefinition
+  m_ID: projectArchitecture
+  m_title: Project Architecture
+  m_category: 5
+  m_description: "Cette note concerne la disposition des dossiers.\n\n---------------\nAssets:
+    Racine du projet.\n|=> _ : Dossier de contenu essentiellement INTERNE au projet.\n|=>
+    ThirdParty : Dossier de contenu essentiellement EXTERNE au projet.\n---------------\n_:
+    Racine du contenu interne\n|=> Content ou DCC : Dossier d'ART\n|=> Database :
+    Dossier de GAMEDESIGN\n|=> Features : Dossier de DEV\n|=> Ressources : Jamais
+    utilis\xE9 donc je sais pas (mdr)\n|=> Settings : Dossier de configurations de
+    base.\n|=> Scenes : Dossier...de...scenes...\n----------------\n\nPour ce qui
+    est de l'architecture interne de chaque dossier orient\xE9 par votre corps de
+    m\xE9tier (ART,DEV,DESIGN),  je pense que vous \xEAtes les mieux concern\xE9s
+    pour savoir comment structurer l'int\xE9rieur.\n----------------\n\nJe tiens
+    cependant \xE0 vous sensibiliser sur chose:\n\nLes utilisateurs Windows, POURRAIENT,
+    rencontrer des probl\xE8mes de corruptions d'\xE9dition/lecture/retrait de fichier
+    d\xE8s lors que le chemin total d'acc\xE8s d\xE9passe les 260 catact\xE8res.\n\nEx:
+    \"C://SomeFilePath/SomeUser/SomeDoc/SomeProjectName/TheFoundation/Assets/_/Content/Materials/MAT_SomeSuperBlueColor.mat\"\n\nC'est
+    un exemple un peu exag\xE9r\xE9, mais il fait n\xE9anmoins environ 117 caract\xE8res.\n\n(D'o\xF9
+    ma pr\xE9f\xE9rence personnelle pour '_' et 'DCC')"
+  m_version: 1.0.0
+  m_author: Lex
+  m_updatedAt: 2026-06-05
+  m_gallery: []

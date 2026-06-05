@@ -15,12 +15,12 @@ MonoBehaviour:
   m_ID: assemblyDependencyTracker
   m_title: Assembly Dependency Tracker
   m_category: 6
-  m_description: "Ce tool sert principalement \xE0 suivre le nombre de d\xE9pendances
-    qu'une assembly r\xE9f\xE9rence.\n\nNotamment en affichant une pastille \xE0
-    cot\xE9 des dossiers contenant une assembly.\n\nEx: \n- Shared ne connait personne
-    parce que les autres consomment g\xE9n\xE9ralement Shared.\n(ref : 0, pastille
-    Verte)\n\n- Progression/UI pourrait connaitre des datas/\xE9lements de gameplay
-    + Shared parce qu'il a besoin de savoir quoi enregistrer/afficher.\n(ref:1-x,
+  m_description: "Cette note concerne un tool dont le but est principalement d'aider
+    \xE0 suivre le nombre de d\xE9pendances qu'une assembly r\xE9f\xE9rence.\n\nNotamment
+    en affichant une pastille \xE0 cot\xE9 des dossiers contenant une assembly.\n\nEx:
+    \n- Shared ne connait personne parce que les autres consomment g\xE9n\xE9ralement
+    Shared.\n(ref : 0, pastille Verte)\n\n- Progression/UI pourrait connaitre des
+    datas/\xE9lements de gameplay + Shared parce qu'il a besoin de savoir quoi enregistrer/afficher.\n(ref:1-x,
     pastille Orange-Rouge)\n------------------\n\nUn fenetre ancrable est \xE9galement
     disponible depuis \"TheFoundation\" (Dependency Order)"
   m_version: 1.0.2

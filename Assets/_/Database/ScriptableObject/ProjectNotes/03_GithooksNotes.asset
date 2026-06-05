@@ -15,11 +15,19 @@ MonoBehaviour:
   m_ID: githooks
   m_title: Git Hooks
   m_category: 4
-  m_description: "Ce tool devrais normalement automatiquement configurer le GIT afin
-    de lui d\xE9finir un nouveau chemin dans lequel chercher des  Githooks.\n----------------\n\nQu'est
-    ce qu'un githook ?\n\nGrossi\xE8rement ca permet d'intercepter les action autour
-    d'un push/commit,etc..\n----------------\n\nPourquoi un githook ? \n\nC'est dans
-    l'optique de ne pas perdre "
+  m_description: "Cette note concerne un tool qui devrais normalement automatiquement
+    configurer le GIT afin de lui d\xE9finir un nouveau chemin dans lequel chercher
+    des  Githooks.\n----------------\n\nQu'est ce qu'un githook ?\n\nGrossi\xE8rement
+    ca permet d'intercepter les action autour d'un push/commit,etc..\n----------------\n\nPourquoi
+    un githook ? \n\nC'est dans l'optique d'am\xE9liorer diverses \xE9l\xE9ments
+    qui concernent le \"commit/push/etc...\" comme le message de commit.\n\nEx: \"Test\"
+    ou \"model2DUnity\" c'est peu harmonieux et lisible.\nLe githook commit-msg servirait
+    par exemple \xE0 \"imposer\" une structure telle que :\n\n\"Added : model2DUnity\"
+    au moins on sait identifier directement l'intention du commit.\n-------------------\n\nMais
+    aussi pour pr\xE9server une action maladroite qui tenterait d'envoyer un fichier
+    de 3GB sur le repos.\n\nLe githook \"pre-commit\" permet d'intercepter avant
+    le commit et de voir que, la taille des fichier est trop grande, et ainsi interrompre
+    le commit.\n\nEvitant ainsi de faire planter le repos/GIT."
   m_version: 1.0.1
   m_author: Lex
   m_updatedAt: 2026-06-05

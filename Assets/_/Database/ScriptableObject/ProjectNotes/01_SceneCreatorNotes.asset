@@ -15,16 +15,16 @@ MonoBehaviour:
   m_ID: sceneCreator
   m_title: Scene Creator
   m_category: 6
-  m_description: "Ce tool sert \xE0 uniformiser la cr\xE9ation de sc\xE8nes et limites
-    les erreurs d'emplacement ou de nommage.\n\nEn gros actuellement il y a 3 types:\n\n-
-    DebugScenes (Test)\n- ProductScenes ( 00_SplashScreen, 01_MainMenu, etc..)\n-
-    ContributorScenes (Lex,John,Fitz,Gerald,Ken, Eddy)\n------------------\n\nPour
+  m_description: "Cette note concerne un tool dont le but est d'uniformiser la cr\xE9ation
+    de sc\xE8nes et limites les erreurs d'emplacement ou de nommage.\n\nEn gros actuellement
+    il y a 3 types:\n\n- DebugScenes (Test)\n- ProductScenes ( 00_SplashScreen, 01_MainMenu,
+    etc..)\n- ContributorScenes (Lex,John,Fitz,Gerald,Ken, Eddy)\n------------------\n\nPour
     acc\xE9der au bouton s'il n'est pas pr\xE9sent:\n- Clic droit pr\xE8s de \"Play/Pause
     button\"\n- Cocher \"Scene Creator\"\n\nEnsuite un bouton New Scene apparait,
     et vous connaissez la suite."
   m_version: 1.0.1
   m_author: Lex
-  m_updatedAt: 2026-06-04
+  m_updatedAt: 2026-06-05
   m_gallery:
   - {fileID: 2800000, guid: af954b2f66cc44dc896cc2573bdb8c56, type: 3}
   - {fileID: 2800000, guid: edfd6a6b3fee6461aa3219a48238f916, type: 3}
