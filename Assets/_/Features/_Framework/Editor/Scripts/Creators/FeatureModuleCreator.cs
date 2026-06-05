@@ -4,6 +4,11 @@ using UnityEngine;
 
 namespace TheFoundation.Editor
 {
+    //TODO Je le note pour ne pas oublier, mais à priori une architecture de dossier pour Editor
+    //serait plus interessante:
+    //Tools : Pour ce qui est outil de visualisation ou d'analyse
+    //Creators : Pour ce qui génère des ressources/assets (FeatureCreator)
+    //Inspectors : Pour ce qui modifie/touche à l'inspector d'un script de facon automatique (CustomEditor(Typeof))
     public class FeatureModuleCreator : EditorWindow
     {
         private string moduleName = "NewFeature";
@@ -34,27 +39,26 @@ namespace TheFoundation.Editor
 
         private void CreateFeatureModule(string name)
         {
-            // --- Corrected folder structure ---
-            string basePath = Path.Combine("Assets","_","Features");
+            string basePath = Path.Combine("Assets", "_", "Features");
             string featurePath = Path.Combine(basePath, name);
             string runtimePath = Path.Combine(featurePath, "Runtime");
             string editorPath = Path.Combine(featurePath, "Editor");
+            string scriptsPath = Path.Combine(runtimePath, "Scripts");
 
-            // Create folders
-            //CreateFolderIfNotExist("_", "Features");
-            CreateFolderIfNotExist(basePath, name);
-            CreateFolderIfNotExist(featurePath, "Runtime");
-            CreateFolderIfNotExist(featurePath, "Editor");
+            // Directory.CreateDirectory est récursif — crée tout d'un coup
+            Directory.CreateDirectory(scriptsPath);
+            Directory.CreateDirectory(editorPath);
 
             // Create ASMDEFs
             CreateAsmDef(Path.Combine(runtimePath, $"{name}.Runtime.asmdef"), GetRuntimeAsmdefJSON(name));
             CreateAsmDef(Path.Combine(editorPath, $"{name}.Editor.asmdef"), GetEditorAsmdefJSON(name));
 
             // Create default script inheriting from FBehaviour
-            CreateBaseScript(name, runtimePath);
+            CreateBaseScript(name, Path.Combine(runtimePath,"Scripts"));
 
             AssetDatabase.Refresh();
-
+            AssetDatabase.SaveAssets();
+            
             EditorUtility.DisplayDialog(
                 "Success",
                 $"Feature Module '{name}' created successfully.",
@@ -62,6 +66,9 @@ namespace TheFoundation.Editor
             );
         }
 
+        /*
+         * Le fait de passer par AssetDatabase, 
+         */
         private void CreateFolderIfNotExist(string parent, string folderName)
         {
             string fullPath = Path.Combine(parent, folderName);
@@ -82,11 +89,12 @@ namespace TheFoundation.Editor
             return
 $@"{{
     ""name"": ""{name}.Runtime"",
+    ""rootNamespace"": ""{name}.Runtime"",
     ""references"": [
         ""TheFoundation.Runtime""
     ],
     ""includePlatforms"": [],
-    ""excludePlatforms"": [ ""Editor"" ],
+    ""excludePlatforms"": [],
     ""autoReferenced"": true
 }}";
         }
@@ -96,9 +104,9 @@ $@"{{
             return
 $@"{{
     ""name"": ""{name}.Editor"",
+    ""rootNamespace"": ""{name}.Editor"",
     ""references"": [
-        ""{name}.Runtime"",
-        ""TheFoundation.Editor""
+        ""{name}.Runtime""
     ],
     ""includePlatforms"": [ ""Editor"" ],
     ""autoReferenced"": true
@@ -109,28 +117,36 @@ $@"{{
 
         private void CreateBaseScript(string moduleName, string runtimePath)
         {
-            string scriptName = moduleName + "Main.cs";
+            string scriptName = moduleName + "Behaviour.cs";
             string fullPath = Path.Combine(runtimePath, scriptName);
 
             if (File.Exists(fullPath))
                 return;
 
-            string script =
-$@"using TheFoundation.Runtime;
+            string script = $@"
+using TheFoundation.Runtime;
 using UnityEngine;
 
-namespace Features.{moduleName}
+namespace {moduleName}.Runtime
 {{
-    public class {moduleName} : FBehaviour
+    public class {moduleName}Behaviour : FBehaviour
     {{
+
+        public void Start()
+        {{
+
+        }}
+        /*
         protected override void OnInit()
         {{
             // Initialize your feature
         }}
+        */
     }}
 }}";
 
             File.WriteAllText(fullPath, script);
+            AssetDatabase.Refresh();
         }
     }
 }
