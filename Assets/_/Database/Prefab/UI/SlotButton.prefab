@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2308647420298479827}
   - component: {fileID: 1924459307094327471}
   - component: {fileID: 5143055799065953256}
-  - component: {fileID: 4587005614802189007}
   - component: {fileID: 1076664951542272614}
   - component: {fileID: 8590006832379663876}
   m_Layer: 5
@@ -108,22 +107,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4587005614802189007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 12732684275856924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2df1d01897938247bbc8db83181f134, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _slotLabel: {fileID: 4348240087757990535}
-  _loadButton: {fileID: 7333168186989083695}
-  _saveButton: {fileID: 4994822583521733525}
-  _deleteButton: {fileID: 8727820443379285016}
 --- !u!114 &1076664951542272614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,6 +251,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -313,7 +297,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c502a6e87ccee48a42f2828d2e68ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localizationKey: delete
+  m_settingDefinition:
+    m_Definition: {fileID: 0}
+  _debug: 0
+  _warning: 0
+  _error: 0
+  key: 
 --- !u!1 &2033625468757371071
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,6 +407,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -463,7 +453,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c502a6e87ccee48a42f2828d2e68ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localizationKey: save
+  m_settingDefinition:
+    m_Definition: {fileID: 0}
+  _debug: 0
+  _warning: 0
+  _error: 0
+  key: 
 --- !u!1 &2897273317892230190
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +696,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -746,7 +742,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8c502a6e87ccee48a42f2828d2e68ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _localizationKey: load
+  m_settingDefinition:
+    m_Definition: {fileID: 0}
+  _debug: 0
+  _warning: 0
+  _error: 0
+  key: 
 --- !u!1 &6298849312650980997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1116,6 +1117,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

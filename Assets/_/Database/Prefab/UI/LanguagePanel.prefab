@@ -121,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 682156529493240109}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TheFundation.Runtime.LanguageSelectorUI, TheFundation.Runtime
         m_MethodName: SelectLanguage
         m_Mode: 5
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 682156529493240109}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TheFundation.Runtime.LanguageSelectorUI, TheFundation.Runtime
         m_MethodName: SelectLanguage
         m_Mode: 5
@@ -369,6 +369,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -505,6 +506,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -550,7 +552,7 @@ GameObject:
   - component: {fileID: 2514343650302822672}
   - component: {fileID: 1602197872711125702}
   - component: {fileID: 8162544838039793657}
-  - component: {fileID: 682156529493240109}
+  - component: {fileID: 6448031009930428856}
   m_Layer: 5
   m_Name: LanguagePanel
   m_TagString: Untagged
@@ -643,7 +645,7 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &682156529493240109
+--- !u!114 &6448031009930428856
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -652,6 +654,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 4783270634057975147}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11b00c9dcb9825a4e838c7603fc65250, type: 3}
+  m_Script: {fileID: 11500000, guid: c6d600fc9df27e743899dd9d0ae47ba7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: TheFoundation.Runtime::TheFoundation.Runtime.LanguageDropdownBridge
+  _dropdown: {fileID: 0}
+  _languages: []

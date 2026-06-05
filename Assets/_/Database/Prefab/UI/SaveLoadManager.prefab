@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4928575395485279732}
-  - component: {fileID: 4664785427717073810}
   - component: {fileID: 5654315863392479407}
   - component: {fileID: 4677348889640716732}
+  - component: {fileID: 2118755226705307012}
   m_Layer: 5
   m_Name: SaveLoadManager
   m_TagString: Untagged
@@ -38,21 +38,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 100}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &4664785427717073810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8589184623939031188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ea7c1960d08ec24ea6f36e7c13f6c2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _slotsContainer: {fileID: 4928575395485279732}
-  _slotButtonPrefab: {fileID: 12732684275856924, guid: aaee4ff76e8798b4d95859931f721b22, type: 3}
-  _maxSlots: 10
 --- !u!114 &5654315863392479407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,3 +78,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &2118755226705307012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8589184623939031188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b268d46e6b0f4ef4baa0ef8536474c6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TheFoundation.Runtime::TheFoundation.Runtime.SaveSlotsPanel
+  container: {fileID: 0}
+  slotPrefab: {fileID: 12732684275856924, guid: aaee4ff76e8798b4d95859931f721b22, type: 3}
+  maxSlots: 10
